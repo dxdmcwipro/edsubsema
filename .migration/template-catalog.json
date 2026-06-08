@@ -1,0 +1,45 @@
+{
+  "templates": [
+    {
+      "name": "document-listing",
+      "representativePages": [
+        "https://www.ubs.com/in/en/collections/creditor-notice.html"
+      ],
+      "urls": [
+        "https://www.ubs.com/in/en/collections/creditor-notice.html"
+      ],
+      "description": "Simple page with breadcrumb navigation and downloadable document cards"
+    },
+    {
+      "name": "homepage",
+      "representativePages": [
+        "https://www.ubs.com/in/en.html"
+      ],
+      "urls": [
+        "https://www.ubs.com/in/en.html"
+      ],
+      "description": "Full-width hero with capability cards, content sections, alerts, and regulatory disclosures"
+    },
+    {
+      "name": "service-landing",
+      "representativePages": [
+        "https://www.ubs.com/in/en/wealthmanagement.html"
+      ],
+      "urls": [
+        "https://www.ubs.com/in/en/wealthmanagement.html"
+      ],
+      "description": "Service landing page with hero banner, feature cards, and publication downloads"
+    },
+    {
+      "name": "content-page",
+      "representativePages": [
+        "https://www.ubs.com/in/en/wealthmanagement/connect-with-us.html"
+      ],
+      "urls": [
+        "https://www.ubs.com/in/en/wealthmanagement/connect-with-us.html",
+        "https://www.ubs.com/in/en/wealthmanagement/insights.html"
+      ],
+      "description": "Sub-navigation with hero banner, content cards/tiles, CTA sections, and engagement elements"
+    }
+  ]
+}

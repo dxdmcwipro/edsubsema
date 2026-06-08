@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": ["https://www.ubs.com/in/en.html"],
+      "description": "UBS India homepage with full-width hero teaser, capability cards, about section, fraud alert banner, and regulatory disclosures",
+      "blocks": [
+        {
+          "name": "hero-homepage",
+          "instances": [".storyboard.section"]
+        },
+        {
+          "name": "cards-overview",
+          "instances": [".capabilities-v1__container", ".aboutUs-v1__article"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Teaser",
+          "selector": "section.hero-section",
+          "style": "dark",
+          "blocks": ["hero-homepage"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Our Capabilities",
+          "selector": "section.capabilities-section",
+          "style": null,
+          "blocks": ["cards-overview"],
+          "defaultContent": [".capabilities-section > h2"]
+        },
+        {
+          "id": "section-3",
+          "name": "About Us",
+          "selector": "section.about-section",
+          "style": null,
+          "blocks": ["cards-overview"],
+          "defaultContent": [".about-section > h2", ".about-section > img"]
+        },
+        {
+          "id": "section-4",
+          "name": "Fraud Alert",
+          "selector": "section.fraud-alert-section",
+          "style": "grey",
+          "blocks": [],
+          "defaultContent": [".fraud-alert-section .alert-banner", ".fraud-alert-section > p", ".fraud-alert-section > h3", ".fraud-alert-section > a"]
+        },
+        {
+          "id": "section-5",
+          "name": "CyberSafe Tips",
+          "selector": "section.cybersafe-section",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".cybersafe-section > h3", ".cybersafe-section > p", ".cybersafe-section > a"]
+        },
+        {
+          "id": "section-6",
+          "name": "Regulatory Disclosures",
+          "selector": "section.regulatory-section",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".regulatory-section > h2", ".regulatory-section .disclosure-items", ".regulatory-section > a"]
+        }
+      ]
+    }
+  ]
+}

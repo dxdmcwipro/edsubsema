@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.ubs.com/in/en.html",
+  "path": "in/en",
+  "timestamp": "2026-06-08T12:26:47.933Z",
+  "title": "UBS financial services in your location | UBS India",
+  "template": "homepage",
+  "blocks": [
+    "hero-homepage",
+    "cards-overview",
+    "cards-overview"
+  ]
+}
