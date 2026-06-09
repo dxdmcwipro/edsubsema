@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.ubs.com/global/en.html",
+  "path": "global/en",
+  "timestamp": "2026-06-09T11:32:09.209Z",
+  "title": "UBS financial services around the globe | UBS Global",
+  "template": "homepage",
+  "blocks": [
+    "hero-homepage",
+    "cards-overview",
+    "cards-overview"
+  ]
+}
