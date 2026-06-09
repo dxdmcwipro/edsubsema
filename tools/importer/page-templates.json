@@ -5,7 +5,7 @@
   "templates": [
     {
       "name": "homepage",
-      "urls": ["https://www.ubs.com/in/en.html"],
+      "urls": ["https://www.ubs.com/in/en.html", "https://www.ubs.com/uk/en.html"],
       "description": "UBS India homepage with full-width hero teaser, capability cards, about section, fraud alert banner, and regulatory disclosures",
       "blocks": [
         {

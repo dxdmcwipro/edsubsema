@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.ubs.com/uk/en.html",
+  "path": "uk/en",
+  "timestamp": "2026-06-09T05:26:17.446Z",
+  "title": "Our financial services in the United Kingdom | UBS United Kingdom",
+  "template": "homepage",
+  "blocks": [
+    "hero-homepage",
+    "cards-overview",
+    "cards-overview"
+  ]
+}
